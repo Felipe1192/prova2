@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+}
+#logo{
+    width: 30%;
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    justify-content: center;
+}
+img{
+
+}
+#banner{
+    width: 90%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#banner h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+ul li {
+    margin: 20px;
+}
+#tv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(150, 140, 216);
+    text-align: center;
+    height: 364px;
+}
+#co {
+    text-align: center;
+    justify-content: space-evenly;
+}
+#danca {
+    justify-content: flex-start;
+}
+body {
+    background-image: url(https://64.media.tumblr.com/e23117970f88289697dc56d1d2108ce7/6fc2af920a394b68-73/s250x400/6d787485d8855141ce8deaf1d0b5416dfca33754.gif);
+background-size: 3%;
+}
