@@ -11,31 +11,33 @@ header {
 }
 #logo{
     width: 30%;
-    background-color: rgb(255, 251, 0);
+    background-image: url(https://img1.picmix.com/output/pic/normal/3/0/2/4/12744203_8363b.gif);
     display: flex;
     justify-content: center;
-}
-img{
-
+    background-size: 40%;
+    
 }
 #banner{
     width: 90%;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 153, 255);
     display: flex;
     flex-wrap: wrap;
-   
+    background-image: url(https://static.wikia.nocookie.net/villains/images/c/c4/Tenna_t_pose.gif/revision/latest/scale-to-width-down/250?cb=20250606204035);
+    background-size: 10%;
+    color: rgb(255, 0, 0);
 }
 #banner h1{
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    
+    
 }
 ul {
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: space-evenly;
-    
 }
 ul li {
     margin: 20px;
@@ -47,15 +49,43 @@ ul li {
     background-color: rgb(150, 140, 216);
     text-align: center;
     height: 364px;
+    background-image: url(https://i.pinimg.com/originals/13/4e/cd/134ecd91aa9ad241fa634271c3e27e85.gif);
+    background-size: 10%;
+    color: rgb(190, 52, 52);
 }
 #co {
     text-align: center;
     justify-content: space-evenly;
+    
 }
 #danca {
     justify-content: flex-start;
 }
 body {
     background-image: url(https://64.media.tumblr.com/e23117970f88289697dc56d1d2108ce7/6fc2af920a394b68-73/s250x400/6d787485d8855141ce8deaf1d0b5416dfca33754.gif);
-background-size: 3%;
+    background-size: 3%;
+}
+#Tenna {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif);
+    background-image: url(https://i.pinimg.com/originals/5a/93/4e/5a934e84f67d2a61a118ec95b1d6cb74.gif);
+    background-size: 7%;
+}
+#lore {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    background-image: url(https://images.steamusercontent.com/ugc/16686208715242570622/AACD6112A884A4258D72B6FA7988554129801C5B/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: 5%;
+    color: rgb(248, 232, 0);
+}
+#gf {
+    flex-direction: column;
 }
